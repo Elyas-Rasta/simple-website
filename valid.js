@@ -13,7 +13,7 @@ function validate(){
     var password = document.getElementById("pass");
     var length = document.getElementById("length")
 
-    if(password.value.length >= 8){
+    if(password.value.length >= 10){
         alert("Login Succesful");
         window.location.replace("newpage.html")
         return false;
