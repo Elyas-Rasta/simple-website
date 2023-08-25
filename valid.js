@@ -20,6 +20,6 @@ function validate(){
 
     }
     else{
-        alert ("Login Failed")
+        alert ("Login Failed has to be more than 10 letters.")
     }
 }
